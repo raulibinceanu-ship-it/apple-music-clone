@@ -1,7 +1,7 @@
 export default function HeroCard({ image, alt }) {
   return (
-    <div className="mb-3">
-      <img src={image} alt={alt} className="img-fluid w-100 rounded" />
+    <div className="hero-card mb-4">
+      <img src={image} alt={alt} className="hero-img" />
     </div>
   );
 }

@@ -71,3 +71,23 @@ img {
   max-width: 100%;
   border-radius: 8px;
 }
+/* HERO CARD FIX */
+.hero-card {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  display: block;
+}
+
+.mobile-menu p {
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
