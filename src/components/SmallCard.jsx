@@ -1,15 +1,9 @@
-function SmallCard({ image, title, subtitle }) {
+export default function SmallCard({ image, title, subtitle }) {
   return (
-    <div className="text-light" style={{ width: "120px" }}>
-      <img src={image} alt={title} className="img-fluid rounded mb-2" />
-      <p className="m-0 fw-bold" style={{ fontSize: "0.9rem" }}>
-        {title}
-      </p>
-      <p className="m-0 text-secondary" style={{ fontSize: "0.8rem" }}>
-        {subtitle}
-      </p>
+    <div style={{ width: "150px" }}>
+      <img src={image} alt={title} className="img-fluid rounded" />
+      <p className="text-light mt-2 mb-0 fw-bold">{title}</p>
+      <p className="text-secondary">{subtitle}</p>
     </div>
   );
 }
-
-export default SmallCard;

@@ -55,3 +55,19 @@ body {
 .mobile-header img {
   filter: brightness(0) invert(1);
 }
+
+body {
+  background-color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  background-color: #111;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
